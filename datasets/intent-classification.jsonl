@@ -1,0 +1,100 @@
+{"id":"intent-001","input":"How do I reset my password?","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-002","input":"My credit card was charged twice last month","expected":"billing","metadata":{"difficulty":"easy","category":"billing"}}
+{"id":"intent-003","input":"The export button is greyed out and I cannot click it","expected":"bug_report","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-004","input":"Can you add a dark mode option?","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-005","input":"What is the difference between the Pro and Team plans?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-006","input":"I forgot what email I signed up with","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-007","input":"Your invoice for January seems wrong, the total does not match the line items","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-008","input":"After updating, the app crashes when I open it","expected":"bug_report","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-009","input":"It would be great to have keyboard shortcuts for the most common actions","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-010","input":"Do you offer educational discounts?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-011","input":"I want to upgrade my account to the Pro tier","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-012","input":"My 2FA codes are not working anymore","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-013","input":"The mobile app does not sync with desktop sometimes","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-014","input":"Please consider adding webhooks for these events","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-015","input":"Why was I charged $49 instead of $19?","expected":"billing","metadata":{"difficulty":"easy","category":"billing"}}
+{"id":"intent-016","input":"Help, I cannot log in to my account","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-017","input":"Reports are showing zero data even though we have activity","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-018","input":"How many users does the Team plan support?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-019","input":"I would love to see a Slack integration","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-020","input":"My latest payment failed but my card is fine","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-021","input":"How do I change my account email address?","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-022","input":"The search feature stopped working today","expected":"bug_report","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-023","input":"Could you add CSV import?","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-024","input":"What payment methods do you accept?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-025","input":"My subscription should have renewed but I lost access","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-026","input":"I cannot delete my workspace","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-027","input":"PDF exports come out blank since the last update","expected":"bug_report","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-028","input":"Bulk operations would save me hours per week","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-029","input":"Is there an annual plan with discount?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-030","input":"I was promised a refund a week ago and still have not received it","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-031","input":"How do I invite team members?","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-032","input":"The page just shows a spinner forever on Safari","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-033","input":"It would help to have a way to schedule reports","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-034","input":"What is included in the Enterprise plan?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-035","input":"I see a charge I do not recognize on my statement","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-036","input":"How do I enable single sign-on for my organization?","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-037","input":"Notifications are duplicating, I get every alert twice","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-038","input":"Adding native iOS support would be huge","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-039","input":"Do you have a free trial?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-040","input":"My card on file expired, how do I update it?","expected":"billing","metadata":{"difficulty":"easy","category":"billing"}}
+{"id":"intent-041","input":"Where can I see my account API key?","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-042","input":"Filters do not persist between sessions, is this expected?","expected":"bug_report","metadata":{"difficulty":"hard","category":"product"}}
+{"id":"intent-043","input":"Conditional logic in workflows would be useful","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-044","input":"How does pricing scale if my team grows mid-year?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-045","input":"I want a refund for the last 3 months, I never used it","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
+{"id":"intent-046","input":"I lost access to my admin email and cannot recover it","expected":"account_help","metadata":{"difficulty":"hard","category":"account"}}
+{"id":"intent-047","input":"Drag and drop is not working in the latest Chrome","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-048","input":"Can you support webhooks with custom headers?","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-049","input":"Do you have non-profit pricing?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-050","input":"Invoice from last month never arrived","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-051","input":"Two-factor recovery codes are not being accepted","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-052","input":"Tooltip text is cut off on small screens","expected":"bug_report","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-053","input":"A Zapier integration would be game changing","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-054","input":"What is your data retention policy?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-055","input":"My invoice does not show the tax breakdown I need","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-056","input":"Can I have my workspace data deleted permanently?","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-057","input":"Auto-save keeps reverting changes I just made","expected":"bug_report","metadata":{"difficulty":"hard","category":"product"}}
+{"id":"intent-058","input":"Custom domain support would be great","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-059","input":"What SLA do you provide on Enterprise?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-060","input":"I need a paid invoice receipt for my accounting","expected":"billing","metadata":{"difficulty":"easy","category":"billing"}}
+{"id":"intent-061","input":"How do I transfer ownership of my workspace to someone else?","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-062","input":"The new layout is cutting off content in the right sidebar","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-063","input":"I would love bulk tagging for items","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-064","input":"Do you offer phone support?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-065","input":"You charged my old card after I updated it","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
+{"id":"intent-066","input":"Need to add a second admin to my workspace","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-067","input":"Email notifications go to spam every time","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-068","input":"Can we get markdown support in the comment fields?","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-069","input":"How does usage-based pricing work?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-070","input":"Why am I being charged for an inactive user?","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
+{"id":"intent-071","input":"I need to deactivate but not delete my account temporarily","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-072","input":"Charts are rendering with wrong axis labels","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-073","input":"A native macOS app would be lovely","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-074","input":"What is the difference between seats and users in your pricing?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-075","input":"My monthly limit reset early and now I am locked out","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
+{"id":"intent-076","input":"Where is the option to download my data?","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-077","input":"Search returns no results even for terms in my data","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-078","input":"Could you add custom CSS to the public share pages?","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-079","input":"Is there a per-seat or flat fee structure?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-080","input":"How do I get a W-9 from your billing team?","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-081","input":"I cannot find where to manage my email preferences","expected":"account_help","metadata":{"difficulty":"easy","category":"account"}}
+{"id":"intent-082","input":"Date picker shows wrong timezone for some users","expected":"bug_report","metadata":{"difficulty":"hard","category":"product"}}
+{"id":"intent-083","input":"Please let me clone an existing workspace as a template","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-084","input":"What integrations do you support out of the box?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-085","input":"My free trial ended but I was still in the middle of a project","expected":"billing","metadata":{"difficulty":"medium","category":"billing"}}
+{"id":"intent-086","input":"Can I have my team's audit log exported?","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-087","input":"Importing fails silently on files over 10MB","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-088","input":"Custom roles and permissions would help a lot","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-089","input":"Do you provide SOC 2 compliance documentation?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-090","input":"Got a chargeback dispute email, looks fake","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
+{"id":"intent-091","input":"I want to merge two of my accounts","expected":"account_help","metadata":{"difficulty":"hard","category":"account"}}
+{"id":"intent-092","input":"Keyboard shortcut for save no longer works in Firefox","expected":"bug_report","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-093","input":"I want a setting to disable the welcome modal","expected":"feature_request","metadata":{"difficulty":"easy","category":"product"}}
+{"id":"intent-094","input":"Can I get a quote for 100 seats?","expected":"sales_inquiry","metadata":{"difficulty":"easy","category":"sales"}}
+{"id":"intent-095","input":"My annual plan is up for renewal, where do I update payment?","expected":"billing","metadata":{"difficulty":"easy","category":"billing"}}
+{"id":"intent-096","input":"I would like to revoke a personal access token I created","expected":"account_help","metadata":{"difficulty":"medium","category":"account"}}
+{"id":"intent-097","input":"Sort order in lists is inconsistent between views","expected":"bug_report","metadata":{"difficulty":"hard","category":"product"}}
+{"id":"intent-098","input":"Native print stylesheet for shared pages would be useful","expected":"feature_request","metadata":{"difficulty":"medium","category":"product"}}
+{"id":"intent-099","input":"What is the exact bandwidth limit on the Pro plan?","expected":"sales_inquiry","metadata":{"difficulty":"medium","category":"sales"}}
+{"id":"intent-100","input":"Help, I think someone else used my card to pay for service","expected":"billing","metadata":{"difficulty":"hard","category":"billing"}}
