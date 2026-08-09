@@ -86,6 +86,10 @@ The format spec in [scoring/FORMAT.md](scoring/FORMAT.md) covers what each task'
 
 For tasks not covered here (translation, math reasoning, multi-turn conversation), see CONTRIBUTING.md for the requirements.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. All dataset content is public-domain or original-to-this-repo. No copyrighted text included.
