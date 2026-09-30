@@ -6,8 +6,21 @@ Usage:
     python3 score_classification.py datasets/intent-classification.jsonl predictions.jsonl
 """
 import json
+import re
 import sys
 from collections import defaultdict
+
+# Terminal control characters: C0 except tab and newline, DEL, C1, and bidi controls.
+_UNSAFE_CHARS = re.compile("[\x00-\x08\x0b-\x1f\x7f-\x9f\u061c\u200e\u200f\u202a-\u202e\u2066-\u2069]")
+
+
+def safe_text(value):
+    """Escape control characters in untrusted text before it is printed, so a label
+    cannot move the cursor, rewrite earlier lines, set the title or write the clipboard."""
+    if not isinstance(value, str):
+        return value
+    return _UNSAFE_CHARS.sub(lambda m: "\\x%02x" % ord(m.group()) if ord(m.group()) < 0x100
+                             else "\\u%04x" % ord(m.group()), value)
 
 
 def load_jsonl(path):
@@ -53,7 +66,7 @@ def main(dataset_path, predictions_path):
         prec = tp / (tp + fp) if (tp + fp) else 0.0
         rec = tp / (tp + fn) if (tp + fn) else 0.0
         f1 = 2 * prec * rec / (prec + rec) if (prec + rec) else 0.0
-        print(f"{label:<20} {prec:>10.3f} {rec:>8.3f} {f1:>6.3f}")
+        print(f"{safe_text(label):<20} {prec:>10.3f} {rec:>8.3f} {f1:>6.3f}")
 
     out_path = predictions_path + ".results.jsonl"
     with open(out_path, "w") as fh:

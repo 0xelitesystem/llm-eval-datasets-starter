@@ -28,7 +28,8 @@ The `id` must match an id in the dataset. The `prediction` field type depends on
 
 ### code-tasks.jsonl
 - `prediction`: string, the Python source code defining the requested function.
-- Scorer: extracts the function, runs it against each test case in a subprocess with a timeout, reports pass rate per task and overall.
+- Scorer: extracts the function, runs it against each test case in a separate Python process, reports pass rate per task and overall. The process gets a 5-second timeout, a throwaway working folder and an environment with only `PATH` and `SYSTEMROOT` (so API keys in your shell are not passed on), and every process it starts is killed when that example is done.
+- Warning: this executes the prediction as code on your machine. It still runs as your user, with access to your files and your network. The timeout is not a sandbox. Only score predictions you trust, or run the scorer in a container or VM.
 
 ## Output
 

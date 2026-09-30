@@ -30,6 +30,14 @@ Every example needs a stable `id`. Use a short prefix matching the dataset (`ic-
 3. Add a corresponding `scoring/score_<name>.py` following the existing scorers' interface.
 4. Update README.md to list it.
 
+## Tests
+
+The scorer tests use only the standard library. Run them from the repo root:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
 ## What not to include
 
 No personal data, no real names paired with sensitive attributes, no copyrighted text excerpts longer than fair use, no API keys or tokens, no examples that reveal information about specific living people beyond what is publicly documented.

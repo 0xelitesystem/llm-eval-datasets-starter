@@ -43,6 +43,8 @@ The `expected` field structure depends on the task. See [scoring/FORMAT.md](scor
 
 Scoring scripts in [scoring/](scoring/). Each is a single Python file with no external dependencies (except `anthropic` for the LLM-judge tasks).
 
+**Warning: `score_code.py` runs every prediction as Python code on your machine.** Each one runs in its own process with a timeout, a throwaway working folder and an environment cut down to `PATH` and `SYSTEMROOT`, so API keys in your shell are not handed to it, and any processes it starts are killed afterwards. That is not a sandbox: the code still runs as your user and can read your files and reach the network. If you did not produce the predictions yourself, run this scorer in a container or VM.
+
 Run a scoring script:
 
 ```bash
