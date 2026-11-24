@@ -100,7 +100,7 @@ MIT. All dataset content is public-domain or original-to-this-repo. No copyright
 
 - [rag-evaluation-rubrics](https://github.com/0xelitesystem/rag-evaluation-rubrics) - evaluation methodology for RAG specifically
 - [prompt-model-side-by-side](https://github.com/0xelitesystem/prompt-model-side-by-side) - tool to run prompts across multiple models
-- [agent-failure-modes](https://github.com/0xelitesystem/agent-failure-modes) - failure patterns to test for
-- [prompt-cost-calculator](https://github.com/0xelitesystem/prompt-cost-calculator) - cost per eval run estimation
+- [agent-failure-signals](https://github.com/0xelitesystem/agent-failure-signals) - failure patterns to test for
+- [prompt-cost-across-models](https://github.com/0xelitesystem/prompt-cost-across-models) - cost per eval run estimation
 - [ai-generated-code-review-rubrics](https://github.com/0xelitesystem/ai-generated-code-review-rubrics) - scoring approach for code-generation outputs
 - [prompt-injection-test-suite](https://github.com/0xelitesystem/prompt-injection-test-suite) - the adversarial-eval companion
