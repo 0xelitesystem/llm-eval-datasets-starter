@@ -69,7 +69,7 @@ For most tasks, expect 4 to 8 hours total: set up scoring once, then runs take 5
 
 - Not a benchmark. There is no public leaderboard for these scores. They are for your team's internal regression tracking.
 - Not exhaustive. Real product eval needs datasets that reflect your actual user inputs. These are a starter; build domain-specific sets on top.
-- Not adversarial. These are honest test cases. Adversarial eval (jailbreaks, prompt injection) is a separate concern, covered in [prompt-injection-test-suite](https://github.com/0xelitesystem/prompt-injection-test-suite).
+- Not adversarial. These are honest test cases. Adversarial eval (jailbreaks, prompt injection) is a separate concern, covered in [prompt-injection-attack-corpus](https://github.com/0xelitesystem/prompt-injection-attack-corpus).
 
 ## Why these dataset sizes are small
 
@@ -103,4 +103,4 @@ MIT. All dataset content is public-domain or original-to-this-repo. No copyright
 - [agent-failure-signals](https://github.com/0xelitesystem/agent-failure-signals) - failure patterns to test for
 - [prompt-cost-across-models](https://github.com/0xelitesystem/prompt-cost-across-models) - cost per eval run estimation
 - [ai-generated-code-review-rubrics](https://github.com/0xelitesystem/ai-generated-code-review-rubrics) - scoring approach for code-generation outputs
-- [prompt-injection-test-suite](https://github.com/0xelitesystem/prompt-injection-test-suite) - the adversarial-eval companion
+- [prompt-injection-attack-corpus](https://github.com/0xelitesystem/prompt-injection-attack-corpus) - the adversarial-eval companion
